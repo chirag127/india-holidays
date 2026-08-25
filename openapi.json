@@ -15,6 +15,24 @@
     }
   ],
   "paths": {
+    "/data.json": {
+      "get": {
+        "summary": "India Public Holidays data",
+        "description": "Gazetted holidays, restricted holidays, and bank holidays for current and future years",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/data/holidays/{year}": {
       "get": {
         "summary": "India Public Holidays",

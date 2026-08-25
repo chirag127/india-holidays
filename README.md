@@ -28,7 +28,7 @@ const data = await res.json();
 
 - Source: Ministry of Personnel open notification
 - License: public-domain
-- Last updated: `2026-08-25T02:26:41.073Z`
+- Last updated: `2026-08-25T02:56:36.824Z`
 
 See `data/` for raw JSON and `data/schema.json` for the schema.
 
