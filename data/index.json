@@ -1,0 +1,6 @@
+[
+  [
+    "/data/holidays/{year}.json",
+    "/data/holidays/current.json"
+  ]
+]
